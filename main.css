@@ -473,7 +473,15 @@ footer {
     width: 70%;
     height: 80%;
   }
-
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+    margin: 0 auto;
+    display: block;
+  }
+  
   .section_half {
     width: 100%;
   }
