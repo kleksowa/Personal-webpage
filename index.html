@@ -15,29 +15,29 @@
    
 </head>
 <body>
-         <!-- MENU BUTTON -->
-      <button class="button_fixed menu_button "><img class="button_img" src="svg/hambOff.svg"/></button>
+
          <nav>
-               <ul>
-               <li><a href="#section2">About me</a></li>
-               <li><a href="#section3">My work</a></li>
-               <li><a href="#section4">Artwork & design</a></li>
-               <li><a href="#section5">Contact me</a></li>
+            <button class="button_fixed menu_button "><img class="button_img" src="svg/hambOff.svg"/></button>
+               <ul class="menu hide">
+                  <li><a href="#section2">About me</a></li>
+                  <li><a href="#section3">My work</a></li>
+                  <li><a href="#section4">Artwork & design</a></li>
+                  <li><a href="#section5">Contact me</a></li>
                </ul>
          </nav>
 
    <!-- SECTION 1 -->
    <main>
-      <div class="section_full" id="section1">
+      <div class="section_full" id="top">
                   
-         <div>
+         <header>
             <div class="container_top">
-               <h2>Hello! I'm Monika</h2>
-                  <h1>A web dev wannabe with a passion for design</h1>
+               <h1>Hello! I'm Monika</h1>
+                  <h2>A web dev wannabe with a passion for design</h2>
                      
-                  <button class="divein"><a href="#section2">Dive in!</button></a>
+                  <div class="divein"><a href="#section2">Dive in!</div></a>
             </div>
-         </div>
+        
          <svg class="fish1"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:cc="http://creativecommons.org/ns#"
@@ -392,15 +392,15 @@
       </g>
          </svg> 
 
-         <img class="fish2" src="img/fisz6.png">
-
+         <img class="fish2" src="img/fisz6.png" alt="">
+      </header>
       </div>
             
             <!-- SCROLLTOP -->
             <button class="button_fixed"><div class="scrolltop"><a href="#top"><img class="button_img" src="svg/totop.svg"></a></div></button> 
 
             
-         <header id="section2">
+         <header class = "section_header" id="section2">
             <h2>About me</h2>
          </header>
                   <!-- SECTION 2 -->
@@ -412,11 +412,13 @@
                      <img class="me_img" src="img/nioniak.png" alt="illustration - girl with a laptop, two cats">
             </div>
 
-            <div class="section_half text_container">
+            <div class="section_half text_container indent">
+               <article>
                      <p>Welcome to my page!</p>
-                     <p>My name is Monika, and I am a philosophy (ethics) graduate from Poland. In autumn 2020, I've stumbled upon a basic HTML course, and instantly felt that I want to dig into front-end development. Since that, I'm constantly digging and getting myself into an infinite loop of <span class="span_orange span_serif">'read more...'</span></p>
+                     <p>My name is Monika, and I am a philosophy (ethics) graduate from Poland. In autumn 2020, I've stumbled upon a basic HTML course, and instantly felt that I want to dig into front-end development. Since that, I'm constantly digging and getting myself into an infinite loop of <span class="span_color span_serif">'read more...'</span></p>
                      <p>I love to draw since childhood - I've made my first dip pen from a bamboo stick  when I was 11, and it became my favourite traditional technique. Later I got interested in computer graphics, learning to paint raster images and creating vector illustrations. As I always have been a self-taught, I had to practice <strong>a lot</strong>.</p>
                      <p>Besides creating some nice things, I'm also a bookworm, a close-to-crazy cat lady, cRPG enthusiast and a coffee/yerba mate junkie. My imperturbability is a legend among my ex co-workers.</p>
+                  </article>
 
             </div>
 
@@ -425,33 +427,35 @@
          
 
             <!-- SECTION 3 -->
-         <header id="section3">
+         <header class="section_header" id="section3">
             <h2>My work</h2>
             </header>
-         
-         <div class="section_full">
-            <div class="text_container indent">
-               <img class="bug_img" src="img/mszyc.png" alt="aphid">
-               <p>As a web developer*, I want to combine my creativity with constant learning process. I really enjoy coming across new sources of knowledge, finding new features and playing with them in my code. Bugs are not a problem, they're a <span class="span_orange">challenge!</span></p>
-               <p>My goal is also to find a balance between design, functionality and accessibility. Personally, I prefer original, but simple and fast-loading pages than just a developer's show off, crammed with impressive animations and highly interactive, but totally not adjusted for low-end machines or weak internet connection. <span class="span_orange span_serif"><a href="https://piccalil.li/blog/a-minimum-viable-experience-makes-for-a-resilient-inclusive-website-or-app" target="_blank">Here's a nice article about it</a></span> (yup, it's a link this time).</p>
-               <p>Considering a division that forms on the front-end development ground**, I'll probably put myself on the <span class="span_orange">front-of-the-front-end</span> side. I actually <strong>enjoy</strong> writing CSS (<em>sic!</em>), but I'm not scared of JavaScript and, after getting my JS skills onto a higher level, I'm planning to learn some <strong>React</strong> and other things that may come handy.</p>
-               <p>I made this page entirely by myself, from scratch - the SVG's (excluding the social icons), illustrations and buttons were made just for this site, and I had a lot of fun while creating it***. For vector illustrations, I use Inkscape software, which has a great online community.</p></div>
+        
+         <div class="section_full"> 
+            <article>
+               <div class="text_container indent">
+                  <img class="bug_img" src="img/mszyc.png" alt="cartoon greenfly">
+                  <p>As a web developer*, I want to combine my creativity with constant learning process. I really enjoy coming across new sources of knowledge, finding new features and playing with them in my code. Bugs are not a problem, they're a <span class="span_color">challenge!</span></p>
+                  <p>My goal is also to find a balance between design, functionality and accessibility. Personally, I prefer original, but simple and fast-loading pages than just a developer's show off, crammed with impressive animations and highly interactive, but totally not adjusted for low-end machines or weak internet connection. <span class="span_color span_serif"><a href="https://piccalil.li/blog/a-minimum-viable-experience-makes-for-a-resilient-inclusive-website-or-app" target="_blank">Here's a nice article about it</a></span> (yup, it's a link this time).</p>
+                  <p>Considering a division that forms on the front-end development ground**, I'll probably put myself on the <span class="span_color">front-of-the-front-end</span> side. I actually <strong>enjoy</strong> writing CSS (<em>sic!</em>), but I'm not scared of JavaScript and, after getting my JS skills onto a higher level, I'm planning to learn some <strong>React</strong> and other things that may come handy.</p>
+                  <p>I made this page entirely by myself, from scratch - the SVG's (excluding the social icons), illustrations and buttons were made just for this site, and I had a lot of fun while creating it***. For vector illustrations, I use Inkscape software, which has a great online community.</p></div>
 
-            <div class="text_container no-indent">
-               <h3>Skills:</h3>
-               <p><span class="span_orange">I use:</span> HTML, CSS, SASS, JavaScript, jQuery, Bootstrap.</p>
-               <p><span class="span_orange">I want to know how to use:</span> React, GSAP, APIs and more!</p>
-           
-               <p><span class="span_serif span_tiny">* Or - as an aspiring web developer.</span><br>
-               <span class="span_serif span_tiny span_orange">** <a href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/">'Front-of-the-front-end and back-of-the-front-end web development' - article by Brad Frost</a></span><br>
-               <span class="span_serif span_tiny">*** Well, nevermind the drastic modifications in layout, changing background from attached pictures through a nice blue-violet gradient to plain ol' vivid blue, struggles with weird JS behaviour and getting rid of dozens of lines of code. </span></p>
-            </div>
-            </div>
+                  <div class="text_container no-indent">
+                     <h3>Skills:</h3>
+                     <p><span class="span_color">I use:</span> HTML, CSS, SASS, JavaScript, jQuery, Bootstrap.</p>
+                     <p><span class="span_color">I want to know how to use:</span> React, GSAP, APIs and more!</p>
+               
+                     <p><span class="span_serif span_tiny">* Or - as an aspiring web developer.</span><br>
+                     <span class="span_serif span_tiny span_color">** <a href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/">'Front-of-the-front-end and back-of-the-front-end web development' - article by Brad Frost</a></span><br>
+                     <span class="span_serif span_tiny">*** Well, nevermind the drastic modifications in layout, changing background from attached pictures through a nice blue-violet gradient to plain ol' vivid blue, struggles with weird JS behaviour and getting rid of dozens of lines of code. </span></p>
+                  </div>
+               </div>
+            </article>
          </div>
 
                <!-- SECTION 4 -->
 
-         <header id="section4">
+         <header class="section_header"  id="section4">
             <h2>Artwork & design</h2>
             </header>
 
@@ -459,37 +463,37 @@
             
             <div class="card"><a href="traditional.html">
                   <img class="miniature" src="img/trad.png">
-                  <h3>Traditional art</h3></a>
+                  <p>Traditional art<p></a>
                </div>
 
             <div class="card"><a href="vectors.html">
                   <img class="miniature" src="img/vect.png">
-                  <h3>Vector art</p></h3>
+                  <p>Vector art</p></a>
                </div>
 
             <div class="card"><a href="webdesign.html">
                   <img class="miniature" src="img/webd.png">
-                  <h3>Web design</h3></a>
+                  <p>Web design</p></a>
                </div>
 
          </div>
 
                <!-- SECTION 5 -->
 
-      <header id="section5">
+      <header class="section_header" id="section5">
             <h2>Contact me</h2>
       </header>
       <div class="section_last">
             <p>Say hello or give me a job :)</p>
             
-            <p><span>mjfrontend</span><span class="span_orange">@</span><span>gmail.
+            <p><span>mjfrontend</span><span class="span_color">@</span><span>gmail.
                <!-- @$!) nO spam, pleeeaaase ^$^%#%*() -->
                com</span></p>
 
          
          
          <div class="section_socials">
-            <h3>More about me and my work:</h3>
+            <p>More about me and my work:</p>
 
             <a href="https://www.facebook.com/napiorkowane" target="_blank"><img class="social_img" src="socials/fb.svg" alt="facebook"/></a>
             <a href="https://www.linkedin.com/in/monika-jachymska-76215b1b5" target="_blank"><img class="social_img" src="socials/li.svg" alt="linkedin"/></a>
@@ -502,8 +506,6 @@
       </div>
       
       
-
-
    </main>
 
          <!-- FOOTER -->
