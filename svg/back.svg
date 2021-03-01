@@ -5,16 +5,12 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="Capa_1"
-   enable-background="new 0 0 512 512"
-   height="75"
-   viewBox="0 0 75 75"
-   width="75"
    version="1.1"
-   sodipodi:docname="back.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   width="75"
+   viewBox="0 0 75 75"
+   height="75"
+   enable-background="new 0 0 512 512"
+   id="Capa_1">
   <metadata
      id="metadata31">
     <rdf:RDF>
@@ -23,48 +19,25 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs29" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     id="namedview27"
-     showgrid="false"
-     inkscape:zoom="3.6874999"
-     inkscape:cx="10.926888"
-     inkscape:cy="49.382626"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="Capa_1"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
-  <circle
-     style="opacity:1;fill:#6a11cb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.17726827;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path4541-5-3"
-     cx="-37.920113"
-     cy="37.463001"
-     r="37.5"
-     transform="rotate(-90.63892)" />
-  <path
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffa500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:11.49999905;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     d="m 13.966071,37.633204 a 5.7505747,5.7505747 0 0 0 0.002,0.0019 5.7505747,5.7505747 0 0 0 0.484848,2.215845 5.7505747,5.7505747 0 0 0 0.04315,0.08975 5.7505747,5.7505747 0 0 0 1.87956,2.30489 l 16.618734,16.582424 a 5.7505747,5.7505747 0 1 0 8.118709,-8.135198 l -7.446373,-7.43449 22.314413,-0.04409 a 5.7505747,5.7505747 0 1 0 -0.02273,-11.499976 l -22.314412,0.04409 7.416908,-7.463888 a 5.7505747,5.7505747 0 1 0 -8.150795,-8.10305 L 16.376492,32.817865 a 5.7505747,5.7505747 0 0 0 -2.051237,2.736479 5.7505747,5.7505747 0 0 0 -0.359182,2.078845 z"
-     id="path933"
-     inkscape:connector-curvature="0" />
+  <g
+     transform="rotate(-90,37.883522,37.500007)"
+     id="g824">
+    <circle
+       style="opacity:1;fill:#08339c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.17726827;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4541-5-3"
+       cx="-19.076603"
+       cy="-49.774441"
+       r="37.5"
+       transform="rotate(155.67839)" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dba216;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.72717857;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 58.566961,37.636836 A 4.6532191,3.2722187 0 0 0 57.912667,35.856039 L 42.245972,16.772137 a 4.6532191,3.2722187 0 0 0 -2.62626,-1.863871 4.6532191,3.2722187 0 0 0 -0.0031,-0.0021 4.6532191,3.2722187 0 0 0 -0.0152,-0.0043 4.6532191,3.2722187 0 0 0 -0.06361,-0.01705 4.6532191,3.2722187 0 0 0 -0.109042,-0.02769 4.6532191,3.2722187 0 0 0 -0.187809,-0.04474 4.6532191,3.2722187 0 0 0 -0.07875,-0.01704 4.6532191,3.2722187 0 0 0 -5.737185,2.057713 L 17.821957,35.856027 a 4.6535017,3.2724175 0 1 0 8.060532,3.27189 l 7.333515,-8.933831 V 57.0253 a 4.6532191,3.2722187 0 1 0 9.30551,0 V 30.194086 l 7.333537,8.933795 a 4.6532191,3.2722187 0 0 0 8.711797,-1.491095 z"
+       id="path816" />
+  </g>
 </svg>
